@@ -1,0 +1,57 @@
+#head-nav li {
+    float: left;
+    line-height: 35px;
+    padding: 0 6px;
+    font-size: 0;
+}
+#head-nav li a {
+    color: #6c6c6c;
+}
+#head-nav li a:hover {
+    color: #f40;
+}
+#head-nav li a.login {
+    color: #f22e00;
+}
+#head-nav span,
+#head-nav a,
+#head-nav strong {
+    font-size: var(--font-size-small);
+}
+#head-nav .icon-xiajiantou {
+    margin-left: 7px;
+    /* font-size: calc(var(--font-size-small) * .9); */
+    transform: scale(.9);
+    display: inline-block;
+}
+#head-nav .signup {
+    margin-left: 7px;
+}
+#head-nav ul:first-child li:nth-child(2) {
+    margin-right: 7px;
+}
+#head-nav .icon-gouwuche+span {
+    margin-left: 5px;
+}
+#head-nav li strong {
+    color: #f22e00;
+}
+#head-nav .iconfont {
+    color: #9c9c9c;
+    display: inline-block;
+    transform: scale(1.1);
+}
+#head-nav li a:hover .iconfont {
+    color: #f40;
+}
+#head-nav .icon-ef-shoucangjia-gongju+span {
+    margin-left: 5px;
+}
+#head-nav .line {
+    font-size: 12px;
+    color: #ddd;
+    margin: 0 5px;
+}
+#head-nav li .icon-caidan+span {
+    margin-left: 5px;
+}

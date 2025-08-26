@@ -1,0 +1,27 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,ol {
+    margin: 0;
+}
+
+ul,ol {
+    padding: 0;
+    list-style: none;
+}
+
+a,button {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+img {
+    vertical-align: middle;
+}
