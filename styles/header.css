@@ -1,57 +1,112 @@
-#head-nav li {
-    float: left;
-    line-height: 35px;
-    padding: 0 6px;
-    font-size: 0;
-}
-#head-nav li a {
-    color: #6c6c6c;
-}
-#head-nav li a:hover {
-    color: #f40;
-}
-#head-nav li a.login {
-    color: #f22e00;
-}
-#head-nav span,
-#head-nav a,
-#head-nav strong {
-    font-size: var(--font-size-small);
-}
-#head-nav .icon-xiajiantou {
-    margin-left: 7px;
-    /* font-size: calc(var(--font-size-small) * .9); */
-    transform: scale(.9);
-    display: inline-block;
-}
-#head-nav .signup {
-    margin-left: 7px;
-}
-#head-nav ul:first-child li:nth-child(2) {
-    margin-right: 7px;
-}
-#head-nav .icon-gouwuche+span {
-    margin-left: 5px;
-}
-#head-nav li strong {
-    color: #f22e00;
-}
-#head-nav .iconfont {
-    color: #9c9c9c;
-    display: inline-block;
-    transform: scale(1.1);
-}
-#head-nav li a:hover .iconfont {
-    color: #f40;
-}
-#head-nav .icon-ef-shoucangjia-gongju+span {
-    margin-left: 5px;
-}
-#head-nav .line {
+#search-bar {
+    padding: 24px 0 10px;
     font-size: 12px;
-    color: #ddd;
-    margin: 0 5px;
 }
-#head-nav li .icon-caidan+span {
-    margin-left: 5px;
+#search-bar .logo {
+    width: 190px;
+    height: 58px;
+    display: block;
+    background: url(../images/logo.png) no-repeat center center;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+#search-bar .qrbox {
+    width: 72px;
+    height: 86px;
+    border: 1px solid #ccc;
+    position: relative;
+    text-align: center;
+}
+#search-bar .qrbox img {
+    width: 62px;
+    height: 62px;
+}
+#search-bar .icon-guanbi {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    border: 1px solid #eee;
+    left: -17px;
+    top: -1px;
+    color: #ddd;
+    line-height: 14px;
+}
+#search-bar .search-box {
+    width: 630px;
+    margin: 0 auto;
+}
+#search-bar .tab {
+    height: 22px;
+    padding-left: 17px;
+}
+#search-bar .tab li {
+    width: 36px;
+    line-height: 22px;
+    margin-right: 4px;
+    text-align: center;
+    color: #f40;
+    cursor: pointer;
+}
+#search-bar .tab li:hover,
+#search-bar .tab li.active {
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px 6px 0 0;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+}
+#search-bar .tab li:hover {
+    background-color: #ffeee5;
+}
+
+#search-bar .search-box .input-box {
+    position: relative;
+}
+#search-bar .search-box input {
+    width: 554px;
+    height: 40px;
+    border: 2px solid #ff9000;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 0 50px 0 30px;
+}
+#search-bar .search-box input::placeholder {
+    color: #9c9c9c;
+}
+#search-bar .search-box .input-box .icon-sousuo {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    font-size: 16px;
+    color: #9c9c9c;
+}
+#search-bar .search-box .input-box .icon-paizhao {
+    position: absolute;
+    right: 89px;
+    top: -1px;
+    font-size: 28px;
+    color: #9c9c9c;
+    cursor: pointer;
+}
+#search-bar .search-box .search-button {
+    width: 76px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    background-image: linear-gradient(to right, #ff9000, #ff5000);
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#search-bar .hot-key {
+    height: 25px;
+    line-height: 25px;
+}
+#search-bar .hot-key a:hover {
+    color: #f50;
 }

@@ -1,0 +1,60 @@
+#ad-bar {
+    background-color: #f12f04;
+    color: #fff;
+}
+#ad-bar .go {
+    display: block;
+}
+#ad-bar .go img {
+    width: 80px;
+    margin: 10px;
+}
+#ad-bar ul {
+    margin-top: 8px;
+}
+#ad-bar li {
+    width: 209px;
+    height: 75px;
+    background-size: 100% 100%;
+    margin-right: 10px;
+}
+#ad-bar li a {
+    display: block;
+    padding: 12px 14px 0 15px;
+    box-sizing: border-box;
+    height: 100%;
+    border-radius: 20px;
+}
+#ad-bar li:last-child {
+    margin-right: 0;
+}
+#ad-bar li:nth-child(1) {
+    background: url(../images/adbg_01.png) no-repeat;
+}
+#ad-bar li:nth-child(2) {
+    background: url(../images/adbg_02.png) no-repeat;
+}
+#ad-bar li:nth-child(3) {
+    background: url(../images/adbg_03.png) no-repeat;
+}
+#ad-bar li:nth-child(4) {
+    background: url(../images/adbg_04.png) no-repeat;
+}
+#ad-bar li:nth-child(5) {
+    background: url(../images/adbg_05.png) no-repeat;
+}
+#ad-bar li img {
+    float: right;
+    width: 52px;
+    height: 52px;
+    /* margin: 12px 15px 0 0; */
+    border-radius: 13px;
+}
+#ad-bar dl dt {
+    font-size: 20px;
+    line-height: 28px;
+}
+#ad-bar dl dd {
+    font-size: 14px;
+    line-height: 20px;
+}
